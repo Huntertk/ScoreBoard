@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreBoard</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+
+            <div class="home-div">
+                <h1>HOME</h1>
+                <p id="home-score" class="score-details">0</p>
+                <button class="btn" onclick="addOneHome()">+1</button>
+                <button class="btn" onclick="addTwoHome()">+2</button>
+                <button class="btn" onclick="addThreeHome()">+3</button>
+            </div>
+            <div class="home-div">
+                <h1>GUEST</h1>
+                <p id="guest-score" class="score-details">0</p>
+                <button class="btn" onclick="addOneGuest()">+1</button>
+                <button class="btn" onclick="addTwoGuest()">+2</button>
+                <button class="btn" onclick="addThreeGuest()">+3</button>
+            </div>
+        </div>
+        <button id="reset-btn" class="btn" onclick="reset()">Reset</button>
+        <h3 id="dev-details">Designed And Developed By MD TAUFIK FrontEnd Developer</h3>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
